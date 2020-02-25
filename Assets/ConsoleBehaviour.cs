@@ -156,18 +156,18 @@ static string[] parseArguments(string commandString)
 /// A test command to demonstrate argument checking/parsing.
 /// Will repeat the given word a specified number of times.
 /// 
-void babble(string[] args)
-{
-    if (args.Length = 0; --cmdIdx) {
-        string cmd = commandHistory[cmdIdx];
-        if (String.Equals(repeatCmdName, cmd))
-        {
-            continue;
-        }
-        runCommandString(cmd);
-        break;
-    }
-}
+//void babble(string[] args)
+//{
+//    if (args.Length = 0; --cmdIdx) {
+//        string cmd = commandHistory[cmdIdx];
+//        if (String.Equals(repeatCmdName, cmd))
+//        {
+//            continue;
+//        }
+//        runCommandString(cmd);
+//        break;
+//    }
+//}
 
 void reload(string[] args)
 {
